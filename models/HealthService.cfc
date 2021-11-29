@@ -14,6 +14,17 @@ component singleton accessors="true"{
 		return this;
 	}
 
+	function calcularimc(altura,peso,genero){
+		return decimalFormat((peso/(altura*altura)));
+	}
+
+	function pesoideal(altura,genero,edad){
+		if(genero="H"){
+			return decimalFormat(50+((altura-150)/4)*3+(edad-20)/4);
+		}else{
+			return decimalFormat((50+((altura-150)/4)*3+(edad-20)/4)*0.9);
+		}
+	}
 	/**
 	 * save
 	 */

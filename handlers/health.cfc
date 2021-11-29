@@ -5,10 +5,12 @@
 component extends="coldbox.system.EventHandler"{
 
 	// DI
-
+	property name="healthService" inject="HealthService";
+	
 	// HTTP Method Security
 	this.allowedMethods = {
 		index  		= "GET",
+		IMC 		= "POST",
 		new    		= "GET",
 		create   	= "POST,PUT",
 		show 		= "GET",
@@ -31,6 +33,13 @@ component extends="coldbox.system.EventHandler"{
 		// Get resources here
 
 		event.setView( "health/index" );
+	}
+
+	function IMC( event, rc, prc ){
+		// Get resources here
+		prc.imc = healthService.calcularimc(rc.altura,rc.peso,rc.genero);
+		prc.pesoideal = healthService.pesoideal(rc.altura,rc.genero,rc.edad);
+		event.setView( "health/result" );
 	}
 
 	/**

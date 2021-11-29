@@ -3,7 +3,7 @@ body
 { font-family: 'trebuchet ms', arial, sans-serif;
   padding: 0px;
   margin: 0px;
-  font-size: .80em;
+  font-size: .90em;
   background: #E9E4C7 url(../images/pattern.png);
   color: #555;
 }
@@ -55,4 +55,45 @@ height: 107px;
 #informacion
 { text-align: justify;
   padding: 20px 10px 15px 26px;
+}
+#apple{
+  display: block;
+  padding: 3px;
+  height: auto;
+  width: 280px;
+  margin: auto;
+}
+.calculadora{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+table{
+    border: 1px solid #A2AB3B;
+    margin: auto;
+    
+}
+th{
+    padding: 10px;
+    background-color: #A2AB3B;
+    color: white;
+    text-align: center;
+}
+td{
+    padding: 15px;
+    font-weight: bold;
+    color: #A2AB3B;
+}
+#alertas{
+    position: absolute;
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+    margin: auto;
+    width: 45%;
+    background-color: rgba(233, 151, 151, 0.5);
+}
+#alertas span{
+    font-weight: bold;
 }
