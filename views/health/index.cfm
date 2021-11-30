@@ -1,25 +1,25 @@
 <cfoutput>
 
     <article id="informacion">
-        <h1>¿Como medir e interpretar el estado del peso?</h1>
+        <h1>&iquest;C&oacute;mo medir e interpretar el estado del peso?</h1>
         <p>Mucha grasa corporal puede provocar enfermedades relacionadas con el peso y otros problemas de salud. 
-        Tener bajo peso también es un riesgo para la salud. El índice de masa corporal (IMC) 
-        es una herramientas de detección para estimar el estado de peso en relación con el riesgo potencial de enfermedad. 
-        Sin embargo, no es una herramientas de diagnóstico para los riesgos de enfermedad. Un proveedor de atención médica capacitado debe 
+        Tener bajo peso tambi&eacute;n es un riesgo para la salud. El &Iacute;ndice de masa corporal (IMC) 
+        es una herramientas de detecci&oacute;n para estimar el estado de peso en relaci&oacute;n con el riesgo potencial de enfermedad. 
+        Sin embargo, no es una herramientas de diagn&oacute;stico para los riesgos de enfermedad. Un proveedor de atenci&oacute;n m&eacute;dica capacitado debe 
         realizar otras evaluaciones de salud para evaluar el riesgo de enfermedad y diagnosticar el estado de la enfermedad.</p>
         
-        <img id="apple" src="includes/images/manzana.png">
+        <img class="imagen" src="includes/images/manzana.png">
 
-        <h1>Indice de masa corporal o IMC</h1>
+        <h1>&Iacute;ndice de masa corporal o IMC</h1>
         <p>El IMC es el peso de una persona en kilogramos dividido por el cuadrado de la estatura en metros. 
         Un IMC alto puede indicar una grasa corporal alta y un IMC bajo puede indicar una grasa corporal demasiado baja. 
         Para calcular su IMC, consulte la Calculadora de IMC.</p>
     
         <div id="alertas">
             <ul>
-                <li id="error altura"><span>Altura: </span> Dato numerico requerido</li>
-                <li id="error peso"><span>Peso: </span> Dato numerico requerido</li>
-                <li id="error edad"><span>Edad: </span> Dato numerico requerido</li>
+                <li id="error altura"><span>Altura: </span> Dato num&eacute;rico v&aacute;lido requerido</li>
+                <li id="error peso"><span>Peso: </span> Dato num&eacute;rico v&aacute;lido requerido</li>
+                <li id="error edad"><span>Edad: </span> Dato num&eacute;rico v&aacute;lido requerido</li>
             </ul>
         </div>
         <div class="calculadora">

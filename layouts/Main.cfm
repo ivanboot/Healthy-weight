@@ -27,6 +27,8 @@
 	<!---Container And Views --->
 	<div class="contenido">#renderView()#</div>
 
+	<footer id="footer">Mega challenge Ortus Solution 2021 &copy;<br>
+		 Iv&aacute;n Alexander Mart&iacute;nez Garc&iacute;a
 </body>
 </html>
 </cfoutput>

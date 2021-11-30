@@ -56,7 +56,7 @@ height: 107px;
 { text-align: justify;
   padding: 20px 10px 15px 26px;
 }
-#apple{
+.imagen{
   display: block;
   padding: 3px;
   height: auto;
@@ -96,4 +96,20 @@ td{
 }
 #alertas span{
     font-weight: bold;
+}
+#footer
+{ width: 730px;
+  height: 40px;
+  padding: 18px 20px 4px 20px;
+  text-align: center; 
+  color: #444;}
+
+#regresar, #regresar a{
+  text-decoration: underline;
+  text-align: right;
+  color: #444;
+}
+#regresar, #regresar a:hover{
+  text-decoration: none;
+  
 }

@@ -8,11 +8,13 @@ function calculoIMC()
       edad=document.getElementById("edad").value;
       alertas = document.getElementById("alertas").style;
 
+      alert("Saludos");
+
       alertas.visibility ='hidden';
       alertas.position= 'absolute';
       
       //Validacion de datos
-      if(isNaN(altura) || (altura.length==0)){
+      if(isNaN(altura) || (altura.length==0) || ( altura < 0)){
         bandera = false
         alertas.visibility='visible';
         alertas.position= 'relative';
@@ -22,7 +24,7 @@ function calculoIMC()
         document.getElementById("error altura").style.visibility='hidden';
         document.getElementById("error altura").style.position='absolute';
       }
-      if(isNaN(peso) || (peso.length==0)){
+      if(isNaN(peso) || (peso.length==0) || (peso<0)){
         bandera = false
         alertas.visibility='visible';
         alertas.position= 'relative';
@@ -33,7 +35,7 @@ function calculoIMC()
         document.getElementById("error peso").style.position='absolute';
       }
 
-      if(isNaN(edad) || (edad.length==0) || (edad % 1 != 0)){
+      if(isNaN(edad) || (edad.length==0) || (edad % 1 != 0) || (edad<0)){
         bandera = false
         alertas.visibility='visible';
         alertas.position= 'relative';
@@ -49,24 +51,4 @@ function calculoIMC()
         document.imc.submit();
       }
       
-     /*
-      
-     document.getElementById("imc").value=imc.toFixed(2);
-
-      if(imc<=20.5)
-      {
-
-        leyenda="Estas delgado. Debes engordar " + (altura*altura*20.5-peso).toFixed(1) + " kilos";
-      }
-      else if(imc>=25.5)
-      {
-
-        leyenda="Tienes sobrepeso. Debes adelgazar "+(peso-altura*altura*25.5).toFixed(1) +" kilos";
-      }
-      else
-      {
-        leyenda="Estas en tu peso ideal";
-      }
-
-      document.getElementById("leyenda").value=leyenda;*/
 }
