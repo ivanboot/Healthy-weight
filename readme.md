@@ -1,36 +1,25 @@
-# Advanced Script Template
+# Healthy-Weight
 
-An advanced template with all the bells and whistles in script format
+Sitio web que implementa una calculadora cuyos datos calculan el valor de IMC y el peso ideal en base a la altura y edad del sujeto, indica su estado dentro de las categorias del IMC y una breve descripción del estado en que el calculo se encuentra.
 
-## License
+## Autor
 
-Apache License, Version 2.0.
+Iván Alexander Martínez García
 
-## Important Links
+## Enlace a aplicación en Heroku
+https://healtyweight.herokuapp.com
 
 Source Code
 
 - https://github.com/coldbox-templates/advanced-script
 
-## Quick Installation
-
-Each application templates contains a `box.json` so it can leverage [CommandBox](http://www.ortussolutions.com/products/commandbox) for its dependencies.  
-Just go into each template directory and type:
-
-```bash
-box install
-```
-
-This will setup all the needed dependencies for each application template.  You can then type:
-
-```bash
-box server start
-```
-
-And run the application.
-
----
- 
-### THE DAILY BREAD
-
- > "I am the way, and the truth, and the life; no one comes to the Father, but by me (JESUS)" Jn 14:1-12
+## Tecnologías utilizadas
+Lenguaje de programación y plataforma de desarrollo: CFML-Coldfusión <br>
+Estilo personalizado
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)<br>
+Validaciones del lado de cliente
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)<br>
+Contenedor de software
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)<br>
+Servicio de almacenamiento en la nube
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
