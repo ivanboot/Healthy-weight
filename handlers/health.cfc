@@ -37,7 +37,9 @@ component extends="coldbox.system.EventHandler"{
 
 	function IMC( event, rc, prc ){
 		// Get resources here
+		//Guardando calculo IMC
 		prc.imc = healthService.calcularimc(rc.altura,rc.peso,rc.genero,rc.unidades);
+		//Guardando calculo de peso ideal
 		prc.pesoideal = healthService.pesoideal(rc.altura,rc.genero,rc.edad,rc.unidades);
 		prc.unidades = rc.unidades;
 		event.setView( "health/result" );

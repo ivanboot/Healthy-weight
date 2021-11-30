@@ -8,7 +8,6 @@ function calculoIMC()
       edad=document.getElementById("edad").value;
       alertas = document.getElementById("alertas").style;
 
-      alert("Saludos");
 
       alertas.visibility ='hidden';
       alertas.position= 'absolute';

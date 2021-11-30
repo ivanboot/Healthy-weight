@@ -38,33 +38,6 @@ component singleton accessors="true"{
 			return decimalFormat((50+(((altura*100)-150)/4)*3+(edad-20)/4)*0.9);
 		}
 	}
-	/**
-	 * save
-	 */
-	function save(){
-
-	}
-
-	/**
-	 * delete
-	 */
-	function delete(){
-
-	}
-
-	/**
-	 * list
-	 */
-	function list(){
-
-	}
-
-	/**
-	 * get
-	 */
-	function get(){
-
-	}
 
 
 }

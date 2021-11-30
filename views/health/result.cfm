@@ -52,7 +52,7 @@
                     
                     Seg&uacute;n su estatura y edad su peso ideal deberia ser aproximadamente de #prc.pesoideal# kg o #prc.pesoideal*2.205# lb <br>
                     Para m&aacute;s Informaci&oacute;n sobre c&oacute;mo combatir el bajo peso leer el siguiente art&iacute;culo sobre el tema<br>
-                    <a href="https://www.tuasaude.com/es/dieta-para-subir-de-peso/">https://www.tuasaude.com/es/dieta-para-subir-de-peso/</a> 
+                    <a href="https://www.tuasaude.com/es/dieta-para-subir-de-peso/" target="_blank" rel="noopener noreferrer">https://www.tuasaude.com/es/dieta-para-subir-de-peso/</a> 
 
                 </p>
             <cfelseif resultado==imc[2]>
@@ -81,6 +81,8 @@
                         <li>Apnea del sue&ntilde;o: dejar de respirar durante el sue&ntilde;o, lo que puede causar fatiga o somnolencia diurna</li>
                         <li>Problemas &oacute;seos y articulares: el peso ejerce presi&oacute;n sobre los huesos y articulaciones causando rigidez y dolor articular</li>
                     </ul>
+                    Para m&aacute;s informaci&oacute;n sobre c&oacute;mo combatir la obesidad leer el siguiente art&iacute;culo sobre el tema<br>
+                    <a href="https://www.tuasaude.com/es/dieta-para-adelgazar/" target="_blank" rel="noopener noreferrer">https://www.tuasaude.com/es/dieta-para-adelgazar/</a> 
                 </p>
 
             </cfif>
