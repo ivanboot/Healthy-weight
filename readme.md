@@ -9,10 +9,6 @@ Iván Alexander Martínez García
 ## Enlace a aplicación en Heroku
 https://healtyweight.herokuapp.com
 
-Source Code
-
-- https://github.com/coldbox-templates/advanced-script
-
 ## Tecnologías utilizadas
 Lenguaje de programación y plataforma de desarrollo: CFML-Coldfusión <br>
 Estilo personalizado
